@@ -1,4 +1,12 @@
-# Fixing the 429 Error in 9Router
+[English](#english) | [فارسی](#persian)
+
+<a id="english"></a>
+
+# Troubleshooting OpenCode Free 429 Errors in 9Router
+
+This guide documents a workaround for a specific `429` error encountered when using OpenCode Free through 9Router. It was tested on Windows. During testing, the `mimo-v2.6-flash-free` and `deepseek-v4.1-flash-free` models returned HTTP `200` responses.
+
+> **Note:** This workaround does not fix every possible `429` error. It may not help if your OpenCode Free quota is exhausted or if the service restricts your IP address.
 
 This guide documents the steps tested on a Windows system. During testing, the `mimo-v2.6-flash-free` and `deepseek-v4.1-flash-free` models returned HTTP `200` responses.
 
