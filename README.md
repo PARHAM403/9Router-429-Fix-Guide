@@ -8,9 +8,6 @@ This guide documents a workaround for a specific `429` error encountered when us
 
 > **Note:** This workaround does not fix every possible `429` error. It may not help if your OpenCode Free quota is exhausted or if the service restricts your IP address.
 
-This guide documents the steps tested on a Windows system. During testing, the `mimo-v2.6-flash-free` and `deepseek-v4.1-flash-free` models returned HTTP `200` responses.
-
-> **Note:** This method does not guarantee that the 429 error will be resolved for everyone. If your quota is genuinely exhausted or the service has imposed an IP restriction, the error may persist.
 
 ## Prerequisites
 
