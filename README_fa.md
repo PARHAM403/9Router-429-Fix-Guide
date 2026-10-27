@@ -27,7 +27,6 @@ powershell -c "irm bun.sh/install.ps1|iex"
 ```powershell
 git clone https://github.com/zeusire/9router.git 9router-429-fix
 cd 9router-429-fix
-git checkout 2048fc6e
 npm install
 npm install --no-save wreq-js playwright-core
 ```
@@ -91,9 +90,3 @@ npm run start -- --hostname 127.0.0.1 --port 20128
 **Build شکست می‌خورد:** متن کامل خطا را بررسی کنید و مطمئن شوید نصب وابستگی‌ها بدون خطا انجام شده است.
 
 **هنوز خطای 429 دریافت می‌کنید:** این روش سهمیه تمام‌شده یا محدودیت‌های اعمال‌شده از سمت سرویس یا IP را برطرف نمی‌کند؛ نتیجه برای همه تضمین‌شده نیست.
-
-## منابع
-
-- [مخزن 9Router](https://github.com/zeusire/9router)
-- [کامیت استفاده‌شده در این راهنما](https://github.com/zeusire/9router/commit/2048fc6e)
-- [بحث مرتبط درباره خطای 429](https://github.com/decolua/9router/issues/5218)
